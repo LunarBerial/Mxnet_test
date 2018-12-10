@@ -1,0 +1,167 @@
+h = 256
+epoch 1, loss 0.7992, train acc 0.698, test acc 0.820
+epoch 2, loss 0.4959, train acc 0.817, test acc 0.839
+epoch 3, loss 0.4251, train acc 0.842, test acc 0.862
+epoch 4, loss 0.3950, train acc 0.855, test acc 0.861
+epoch 5, loss 0.3782, train acc 0.862, test acc 0.873
+
+h = 128
+epoch 1, loss 0.8223, train acc 0.690, test acc 0.814
+epoch 2, loss 0.4990, train acc 0.815, test acc 0.843
+epoch 3, loss 0.4312, train acc 0.840, test acc 0.853
+epoch 4, loss 0.4052, train acc 0.850, test acc 0.866
+epoch 5, loss 0.3828, train acc 0.860, test acc 0.862
+
+h = 512
+epoch 1, loss 0.7794, train acc 0.710, test acc 0.814
+epoch 2, loss 0.4878, train acc 0.820, test acc 0.853
+epoch 3, loss 0.4278, train acc 0.842, test acc 0.862
+epoch 4, loss 0.3918, train acc 0.857, test acc 0.872
+epoch 5, loss 0.3653, train acc 0.865, test acc 0.867
+
+h = 1024
+epoch 1, loss 0.7987, train acc 0.704, test acc 0.837
+epoch 2, loss 0.4766, train acc 0.824, test acc 0.843
+epoch 3, loss 0.4189, train acc 0.846, test acc 0.864
+epoch 4, loss 0.3886, train acc 0.858, test acc 0.865
+epoch 5, loss 0.3622, train acc 0.866, test acc 0.869
+
+h = 256, gluon
+epoch 1, loss 0.7905, train acc 0.707, test acc 0.830
+epoch 2, loss 0.4887, train acc 0.819, test acc 0.839
+epoch 3, loss 0.4266, train acc 0.843, test acc 0.849
+epoch 4, loss 0.3981, train acc 0.853, test acc 0.858
+epoch 5, loss 0.3726, train acc 0.862, test acc 0.872
+
+h = 256,1024, gluon
+epoch 1, loss 2.6676, train acc 0.102, test acc 0.116
+epoch 2, loss 2.3046, train acc 0.103, test acc 0.117
+epoch 3, loss 2.2947, train acc 0.124, test acc 0.100
+epoch 4, loss 2.2826, train acc 0.136, test acc 0.122
+epoch 5, loss 2.2356, train acc 0.151, test acc 0.276
+epoch 6, loss 1.1626, train acc 0.534, test acc 0.678
+epoch 7, loss 0.7498, train acc 0.705, test acc 0.769
+epoch 8, loss 0.6184, train acc 0.763, test acc 0.783
+epoch 9, loss 0.5563, train acc 0.793, test acc 0.806
+epoch 10, loss 0.5119, train acc 0.811, test acc 0.832
+epoch 11, loss 0.4815, train acc 0.823, test acc 0.835
+epoch 12, loss 0.4563, train acc 0.833, test acc 0.847
+epoch 13, loss 0.4407, train acc 0.840, test acc 0.850
+epoch 14, loss 0.4243, train acc 0.845, test acc 0.849
+epoch 15, loss 0.4140, train acc 0.849, test acc 0.858
+epoch 16, loss 0.4028, train acc 0.853, test acc 0.858
+epoch 17, loss 0.3884, train acc 0.858, test acc 0.861
+epoch 18, loss 0.3803, train acc 0.861, test acc 0.865
+epoch 19, loss 0.3706, train acc 0.865, test acc 0.866
+epoch 20, loss 0.3646, train acc 0.866, test acc 0.851
+epoch 21, loss 0.3568, train acc 0.869, test acc 0.868
+epoch 22, loss 0.3504, train acc 0.871, test acc 0.867
+epoch 23, loss 0.3425, train acc 0.874, test acc 0.872
+epoch 24, loss 0.3345, train acc 0.876, test acc 0.870
+epoch 25, loss 0.3314, train acc 0.878, test acc 0.876
+epoch 26, loss 0.3260, train acc 0.880, test acc 0.871
+epoch 27, loss 0.3193, train acc 0.881, test acc 0.870
+epoch 28, loss 0.3113, train acc 0.885, test acc 0.876
+epoch 29, loss 0.3092, train acc 0.886, test acc 0.876
+epoch 30, loss 0.3059, train acc 0.887, test acc 0.875
+epoch 31, loss 0.2999, train acc 0.888, test acc 0.878
+epoch 32, loss 0.2914, train acc 0.893, test acc 0.883
+epoch 33, loss 0.2915, train acc 0.891, test acc 0.884
+epoch 34, loss 0.2847, train acc 0.895, test acc 0.883
+epoch 35, loss 0.2838, train acc 0.895, test acc 0.886
+epoch 36, loss 0.2775, train acc 0.897, test acc 0.887
+epoch 37, loss 0.2726, train acc 0.898, test acc 0.889
+epoch 38, loss 0.2697, train acc 0.901, test acc 0.882
+epoch 39, loss 0.2655, train acc 0.902, test acc 0.884
+epoch 40, loss 0.2628, train acc 0.903, test acc 0.888
+epoch 41, loss 0.2558, train acc 0.905, test acc 0.889
+epoch 42, loss 0.2534, train acc 0.906, test acc 0.886
+epoch 43, loss 0.2488, train acc 0.907, test acc 0.889
+epoch 44, loss 0.2467, train acc 0.907, test acc 0.890
+epoch 45, loss 0.2450, train acc 0.909, test acc 0.885
+epoch 46, loss 0.2398, train acc 0.912, test acc 0.890
+epoch 47, loss 0.2373, train acc 0.911, test acc 0.894
+epoch 48, loss 0.2345, train acc 0.911, test acc 0.890
+epoch 49, loss 0.2311, train acc 0.914, test acc 0.891
+epoch 50, loss 0.2292, train acc 0.915, test acc 0.889
+
+h = 256,gluon
+epoch 1, loss 0.8634, train acc 0.680, test acc 0.797
+epoch 2, loss 0.5030, train acc 0.814, test acc 0.788
+epoch 3, loss 0.4397, train acc 0.837, test acc 0.853
+epoch 4, loss 0.4118, train acc 0.847, test acc 0.858
+epoch 5, loss 0.3795, train acc 0.860, test acc 0.865
+epoch 6, loss 0.3650, train acc 0.865, test acc 0.864
+epoch 7, loss 0.3469, train acc 0.872, test acc 0.879
+epoch 8, loss 0.3361, train acc 0.877, test acc 0.878
+epoch 9, loss 0.3231, train acc 0.881, test acc 0.882
+epoch 10, loss 0.3138, train acc 0.884, test acc 0.885
+epoch 11, loss 0.3075, train acc 0.887, test acc 0.880
+epoch 12, loss 0.2995, train acc 0.890, test acc 0.882
+epoch 13, loss 0.2951, train acc 0.890, test acc 0.883
+epoch 14, loss 0.2859, train acc 0.894, test acc 0.885
+epoch 15, loss 0.2785, train acc 0.897, test acc 0.880
+epoch 16, loss 0.2767, train acc 0.899, test acc 0.890
+epoch 17, loss 0.2682, train acc 0.901, test acc 0.884
+epoch 18, loss 0.2625, train acc 0.904, test acc 0.884
+epoch 19, loss 0.2583, train acc 0.904, test acc 0.891
+epoch 20, loss 0.2550, train acc 0.906, test acc 0.886
+epoch 21, loss 0.2510, train acc 0.906, test acc 0.887
+epoch 22, loss 0.2465, train acc 0.909, test acc 0.886
+epoch 23, loss 0.2430, train acc 0.910, test acc 0.889
+epoch 24, loss 0.2356, train acc 0.912, test acc 0.880
+epoch 25, loss 0.2340, train acc 0.913, test acc 0.891
+epoch 26, loss 0.2331, train acc 0.914, test acc 0.888
+epoch 27, loss 0.2289, train acc 0.915, test acc 0.892
+epoch 28, loss 0.2247, train acc 0.916, test acc 0.888
+epoch 29, loss 0.2202, train acc 0.918, test acc 0.889
+epoch 30, loss 0.2181, train acc 0.919, test acc 0.891
+epoch 31, loss 0.2167, train acc 0.920, test acc 0.892
+epoch 32, loss 0.2127, train acc 0.920, test acc 0.887
+epoch 33, loss 0.2105, train acc 0.922, test acc 0.893
+epoch 34, loss 0.2058, train acc 0.924, test acc 0.896
+epoch 35, loss 0.2039, train acc 0.923, test acc 0.895
+epoch 36, loss 0.1991, train acc 0.927, test acc 0.894
+epoch 37, loss 0.1979, train acc 0.926, test acc 0.890
+epoch 38, loss 0.1985, train acc 0.928, test acc 0.894
+epoch 39, loss 0.1909, train acc 0.929, test acc 0.893
+epoch 40, loss 0.1921, train acc 0.929, test acc 0.883
+epoch 41, loss 0.1900, train acc 0.930, test acc 0.895
+epoch 42, loss 0.1857, train acc 0.932, test acc 0.890
+epoch 43, loss 0.1851, train acc 0.932, test acc 0.896
+epoch 44, loss 0.1831, train acc 0.932, test acc 0.895
+epoch 45, loss 0.1797, train acc 0.934, test acc 0.893
+epoch 46, loss 0.1752, train acc 0.934, test acc 0.894
+epoch 47, loss 0.1744, train acc 0.936, test acc 0.894
+epoch 48, loss 0.1731, train acc 0.935, test acc 0.893
+epoch 49, loss 0.1730, train acc 0.936, test acc 0.901
+epoch 50, loss 0.1701, train acc 0.936, test acc 0.894
+
+h = 256,256, gluon, dropout = 0.2,0.5
+epoch 1, loss 1.1404, train acc 0.565, test acc 0.790
+epoch 2, loss 0.5789, train acc 0.784, test acc 0.825
+epoch 3, loss 0.4890, train acc 0.820, test acc 0.853
+epoch 4, loss 0.4447, train acc 0.838, test acc 0.854
+epoch 5, loss 0.4153, train acc 0.849, test acc 0.870
+epoch 6, loss 0.3963, train acc 0.855, test acc 0.861
+epoch 7, loss 0.3781, train acc 0.862, test acc 0.863
+epoch 8, loss 0.3682, train acc 0.866, test acc 0.878
+epoch 9, loss 0.3553, train acc 0.871, test acc 0.875
+epoch 10, loss 0.3411, train acc 0.874, test acc 0.877
+epoch 11, loss 0.3332, train acc 0.877, test acc 0.883
+epoch 12, loss 0.3319, train acc 0.878, test acc 0.882
+epoch 13, loss 0.3182, train acc 0.885, test acc 0.882
+epoch 14, loss 0.3114, train acc 0.886, test acc 0.887
+epoch 15, loss 0.3047, train acc 0.887, test acc 0.888
+epoch 16, loss 0.2990, train acc 0.890, test acc 0.882
+epoch 17, loss 0.2982, train acc 0.889, test acc 0.884
+epoch 18, loss 0.2910, train acc 0.893, test acc 0.892
+epoch 19, loss 0.2866, train acc 0.894, test acc 0.887
+epoch 20, loss 0.2832, train acc 0.894, test acc 0.892
+epoch 21, loss 0.2762, train acc 0.896, test acc 0.891
+epoch 22, loss 0.2732, train acc 0.898, test acc 0.887
+epoch 23, loss 0.2689, train acc 0.900, test acc 0.892
+epoch 24, loss 0.2673, train acc 0.900, test acc 0.891
+epoch 25, loss 0.2662, train acc 0.901, test acc 0.893
+epoch 26, loss 0.2620, train acc 0.901, test acc 0.896
+epoch 27, loss 0.2572, train acc 0.903, test acc 0.898

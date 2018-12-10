@@ -1,0 +1,73 @@
+dropout 0.1,0.5
+epoch 1, loss 1.1313, train acc 0.565, test acc 0.780
+epoch 2, loss 0.5755, train acc 0.788, test acc 0.837
+epoch 3, loss 0.4790, train acc 0.825, test acc 0.858
+epoch 4, loss 0.4335, train acc 0.842, test acc 0.836
+epoch 5, loss 0.4096, train acc 0.850, test acc 0.851
+epoch 6, loss 0.3857, train acc 0.859, test acc 0.865
+epoch 7, loss 0.3682, train acc 0.866, test acc 0.866
+epoch 8, loss 0.3540, train acc 0.870, test acc 0.878
+epoch 9, loss 0.3440, train acc 0.874, test acc 0.869
+epoch 10, loss 0.3328, train acc 0.877, test acc 0.879
+no dropout
+epoch 1, loss 1.4350, train acc 0.442, test acc 0.754
+epoch 2, loss 0.6088, train acc 0.764, test acc 0.829
+epoch 3, loss 0.4914, train acc 0.816, test acc 0.850
+epoch 4, loss 0.4355, train acc 0.840, test acc 0.860
+epoch 5, loss 0.4114, train acc 0.846, test acc 0.853
+epoch 6, loss 0.3862, train acc 0.859, test acc 0.862
+epoch 7, loss 0.3710, train acc 0.863, test acc 0.866
+epoch 8, loss 0.3589, train acc 0.867, test acc 0.860
+epoch 9, loss 0.3465, train acc 0.872, test acc 0.876
+epoch 10, loss 0.3336, train acc 0.877, test acc 0.870
+
+dropout=0.5,0.5
+epoch 1, loss 1.2162, train acc 0.524, test acc 0.766
+epoch 2, loss 0.6346, train acc 0.763, test acc 0.807
+epoch 3, loss 0.5368, train acc 0.807, test acc 0.845
+epoch 4, loss 0.4956, train acc 0.821, test acc 0.847
+epoch 5, loss 0.4683, train acc 0.830, test acc 0.856
+epoch 6, loss 0.4527, train acc 0.835, test acc 0.863
+epoch 7, loss 0.4359, train acc 0.843, test acc 0.862
+epoch 8, loss 0.4237, train acc 0.847, test acc 0.871
+epoch 9, loss 0.4105, train acc 0.850, test acc 0.871
+epoch 10, loss 0.4054, train acc 0.853, test acc 0.873
+
+dropout=0.5,0.1
+epoch 1, loss 1.1121, train acc 0.565, test acc 0.784
+epoch 2, loss 0.6027, train acc 0.772, test acc 0.829
+epoch 3, loss 0.5033, train acc 0.813, test acc 0.850
+epoch 4, loss 0.4628, train acc 0.829, test acc 0.849
+epoch 5, loss 0.4381, train acc 0.837, test acc 0.856
+epoch 6, loss 0.4156, train acc 0.847, test acc 0.865
+epoch 7, loss 0.4041, train acc 0.850, test acc 0.870
+epoch 8, loss 0.3929, train acc 0.854, test acc 0.871
+epoch 9, loss 0.3801, train acc 0.859, test acc 0.875
+epoch 10, loss 0.3704, train acc 0.862, test acc 0.875
+
+dropout = 0.8,0.1
+epoch 1, loss 1.2190, train acc 0.519, test acc 0.732
+epoch 2, loss 0.7190, train acc 0.723, test acc 0.792
+epoch 3, loss 0.6342, train acc 0.762, test acc 0.831
+epoch 4, loss 0.5870, train acc 0.783, test acc 0.834
+epoch 5, loss 0.5588, train acc 0.794, test acc 0.843
+epoch 6, loss 0.5386, train acc 0.803, test acc 0.844
+epoch 7, loss 0.5249, train acc 0.809, test acc 0.842
+epoch 8, loss 0.5154, train acc 0.811, test acc 0.836
+epoch 9, loss 0.5052, train acc 0.813, test acc 0.844
+epoch 10, loss 0.4974, train acc 0.817, test acc 0.839
+
+dropout= 0.1,0.8
+epoch 1, loss 1.1746, train acc 0.545, test acc 0.774
+epoch 2, loss 0.6377, train acc 0.768, test acc 0.829
+epoch 3, loss 0.5430, train acc 0.805, test acc 0.853
+epoch 4, loss 0.4905, train acc 0.826, test acc 0.846
+epoch 5, loss 0.4698, train acc 0.833, test acc 0.855
+epoch 6, loss 0.4379, train acc 0.845, test acc 0.871
+epoch 7, loss 0.4205, train acc 0.851, test acc 0.864
+epoch 8, loss 0.4105, train acc 0.855, test acc 0.873
+epoch 9, loss 0.3954, train acc 0.860, test acc 0.871
+epoch 10, loss 0.3851, train acc 0.864, test acc 0.875
+
+结论：如果仅比较前5个epoch的结果，不带dropout的反而效果更好，但是随着epoch迭代次数增加，带dropout的效果会好一点。可以看出，从第十个epoch起，不带dropout的，已经开始过拟合了，但带dropout的没有。
+对于dropout系数，如果前面的层drop掉的东西太多，如0.8，就会影响最终的结果。将两层的系数对调，就会好很多。由此得出，dropout系数应遵循前小后大的原则。同时，比较0.1、0.8和0.1,0.5的结果可以看出，这个参数也并非越小或越大就越好，需要根据模型的具体参数进行调整。
