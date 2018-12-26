@@ -1,3 +1,5 @@
+NiNnet
+
 调参记录：
 关于学习率：
 
@@ -12,3 +14,9 @@
     
 为弥补学习率过大，可以通过同时增大batch_size来控制loss。
     lr = 0.3, batch_size = 256 (原来的2倍)，收敛回复正常，但速度变慢，同样5个epoch之后，loss仍为default设定的3.5 倍。
+
+    
+GoogleNet：
+比NiN深了很多，但每一个epoch的时间基本相等。
+loss较NiN降低0.1， accuracy 升高。总epoch数5.
+可能多增加几轮循环准确率会进一步提升。
