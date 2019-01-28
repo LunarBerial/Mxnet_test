@@ -81,3 +81,8 @@ loss = gloss.SoftmaxCrossEntropyLoss()
 
 train_iter, test_iter = gb.load_data_fashion_mnist(batch_size=batch_size, resize=96)
 gb.train_ch5(net,train_iter,test_iter,batch_size,trainer,ctx,num_epochs)
+
+
+import numpy as np
+
+a = np.fromfile('a',dtype=np.float)
